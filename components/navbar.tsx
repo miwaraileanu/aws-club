@@ -12,17 +12,17 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-20 py-10">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-12 h-12 rounded-lg bg-linear-to-br from-primary to-secondary glow-purple flex items-center justify-center">
-              <Image src="/logo-dark.png" alt="Logo" width={64} height={64} />
+          <Link href="/" className="flex items-center gap-6">
+            <div className="w-16 h-16 rounded-lg bg-linear-to-br from-primary to-secondary glow-purple flex items-center justify-center">
+              <Image src="/logo-dark.png" alt="Logo" width={100} height={100} />
             </div>
-            <span className="font-bold text-lg hidden sm:inline">Community Club</span>
+            <span className="font-bold text-xl hidden sm:inline">Dublin Community Club</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden text-lg md:flex items-center gap-6">
             <Link href="/" className="text-foreground hover:text-primary transition-colors">
               Home
             </Link>
@@ -39,7 +39,7 @@ export function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-foreground">
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-lg text-foreground">
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -75,7 +75,7 @@ export function Navbar() {
             >
               Contact
             </Link>
-            <Button className="w-full bg-primary hover:bg-secondary glow-purple">Join Slack</Button>
+            <Button className="w-full text-lg bg-primary hover:bg-secondary glow-purple">Join Slack</Button>
           </div>
         )}
       </div>
