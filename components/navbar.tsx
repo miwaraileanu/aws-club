@@ -22,7 +22,7 @@ export function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden text-lg md:flex items-center gap-6">
+          <div className="hidden text-md md:flex items-center gap-6">
             <Link href="/" className="text-foreground hover:text-primary transition-colors">
               Home
             </Link>
@@ -35,7 +35,7 @@ export function Navbar() {
             <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </Link>
-            <Button className="bg-primary hover:bg-secondary glow-purple">Join Slack</Button>
+            <Button className="bg-primary lg:text-md hover:bg-secondary glow-purple">Join Slack</Button>
           </div>
 
           {/* Mobile Menu Button */}
