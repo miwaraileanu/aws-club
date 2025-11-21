@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
@@ -11,11 +12,11 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary glow-purple flex items-center justify-center">
-              <span className="text-xl font-bold">AWS</span>
+            <div className="w-12 h-12 rounded-lg bg-linear-to-br from-primary to-secondary glow-purple flex items-center justify-center">
+              <Image src="/logo.png" alt="Logo" width={64} height={64} />
             </div>
             <span className="font-bold text-lg hidden sm:inline">Community Club</span>
           </Link>
