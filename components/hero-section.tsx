@@ -51,21 +51,21 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section ref={heroRef} className="relative mt-20 min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-secondary/20 gradient-animate" />
 
       {/* Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(110,0,255,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(110,0,255,0.1)_1px,transparent_1px)] bg-[size:50px_50px]" />
 
-      <div className="relative z-10 container mx-auto px-4">
+      <div className="z-10 container mx-auto px-4 flex items-center justify-center">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left ">
             <h1 ref={titleRef} className="text-5xl md:text-7xl font-bold mb-6 text-balance">
-              Master <span className="text-primary text-glow">Cloud Computing</span>
+              IRELAND <span className="text-primary text-glow">AWS</span>
               <br />
-              Together
+              COMMUNITY CLUB
             </h1>
 
             <p ref={subtitleRef} className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance">
@@ -89,7 +89,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div ref={imageRef} className="relative">
+          <div ref={imageRef} className="relative hidden md:block">
             <div className="relative rounded-2xl overflow-hidden glow-purple">
               <Image
                 src="/cloud-computing-hero.jpg"

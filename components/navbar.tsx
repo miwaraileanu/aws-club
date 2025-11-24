@@ -16,7 +16,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-6">
             <div className="w-16 h-16 rounded-lg bg-linear-to-br from-primary to-secondary glow-purple flex items-center justify-center">
-              <Image src="/logo-dark.png" alt="Logo" width={100} height={100} />
+              <Image src="/logo.png" alt="Logo" width={100} height={100} />
             </div>
             <span className="font-bold text-xl hidden sm:inline">Dublin Community Club</span>
           </Link>
