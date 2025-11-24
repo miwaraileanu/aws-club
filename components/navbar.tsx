@@ -3,6 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
 
@@ -35,13 +36,17 @@ export function Navbar() {
             <Link href="/contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </Link>
+            <ThemeToggle />
             <Button className="bg-primary lg:text-md hover:bg-secondary glow-purple">Join Slack</Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-lg text-foreground">
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="md:hidden flex items-center gap-4">
+            <ThemeToggle />
+            <button onClick={() => setIsOpen(!isOpen)} className="text-lg text-foreground">
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
