@@ -62,7 +62,7 @@ export function WhatWeOfferSection() {
                         </div>
                         <h3 className="text-[clamp(1.25rem,3vw,1.5rem)] font-bold mb-3 text-purple-300">Networking</h3>
                         <p className="text-gray-300 leading-relaxed text-[clamp(0.9rem,2vw,1rem)]">
-                            Connect with fellow developers, cloud architects, and AWS professionals globally.
+                            Connecting with fellow developers, cloud architects, and AWS professionals globally.
                         </p>
                     </Card>
                 </div>
