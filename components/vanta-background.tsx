@@ -36,6 +36,7 @@ export function VantaBackground() {
               separation: 50.0,
               alignment: 50.0,
               cohesion: 50.0,
+              quantity: 2.0,
             })
           }
         }

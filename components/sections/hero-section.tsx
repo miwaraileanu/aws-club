@@ -15,6 +15,9 @@ export function HeroSection() {
             {/* Animated Background Overlay */}
             <div className="absolute inset-0 particle-bg"></div>
 
+            {/* Center Mask to hide birds behind text */}
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#0f172a_0%,_transparent_60%)] z-0 opacity-80"></div>
+
             {/* Floating Decorative Elements */}
             <div className="absolute top-[10%] left-[5%] w-[20%] max-w-[300px] h-[20%] max-h-[300px] bg-cyan-500/10 rounded-full blur-3xl animate-float"></div>
             <div className="absolute bottom-[10%] right-[5%] w-[25%] max-w-[400px] h-[25%] max-h-[400px] bg-blue-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
