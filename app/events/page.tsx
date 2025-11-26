@@ -54,15 +54,17 @@ export default function Events() {
       <Navigation />
 
       {/* Header */}
-      <section className="py-16 bg-slate-900 border-b border-slate-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl sm:text-6xl font-bold mb-4">Upcoming Events</h1>
-          <p className="text-gray-300 text-lg">
+      <section className="pt-32 pb-20 bg-slate-900">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
+            Upcoming  <span className="text-primary text-glow">Events</span>
+          </h1>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
             Join us for workshops, meetups, and networking events. All events are open to everyone 18+ in Ireland.
           </p>
         </div>
       </section>
-
+      
       {/* Events List */}
       <section className="py-20 bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

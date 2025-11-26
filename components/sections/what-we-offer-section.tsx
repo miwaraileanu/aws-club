@@ -1,12 +1,10 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
-import { Joining } from "./joining"
 
 export function WhatWeOfferSection() {
     return (
-        <section className="py-16 sm:py-20 lg:py-24 bg-slate-900 relative overflow-hidden">
-            <div className="absolute inset-0 particle-bg"></div>
+        <section className="py-16 sm:py-20 lg:py-24 relative">
             <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
                 <h2 className="text-[clamp(2rem,6vw,4rem)] font-bold mb-12 text-center bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent scroll-reveal">
                     What We Offer
@@ -68,8 +66,6 @@ export function WhatWeOfferSection() {
                     </Card>
                 </div>
             </div>
-            <Joining />
-            
         </section>
     )
 }

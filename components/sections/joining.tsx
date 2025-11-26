@@ -4,7 +4,7 @@ import { Button } from "../ui/button"
 
 export function Joining() {
     return (
-    <div className='relative w-full my-20 overflow-hidden flex flex-col items-center justify-center'>
+    <section className='relative w-full py-16 sm:py-20 lg:py-24 overflow-hidden flex flex-col items-center justify-center'>
         <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12 text-center z-10 scroll-reveal">
                 <h2 className="text-[clamp(2rem,6vw,3.5rem)] font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
                     Ready to Join?
@@ -18,6 +18,6 @@ export function Joining() {
                     </Button>
                 </Link>
             </div>
-    </div>
+    </section>
   )
 }
