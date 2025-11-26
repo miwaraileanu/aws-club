@@ -34,7 +34,7 @@ export function HeroSection() {
                     Join a free student-led community supported by Amazon Web Services. Learn cloud skills, build amazing
                     projects, and grow together.
                 </p>
-                <Link href="/contact">
+                <Link href="https://join.slack.com/t/awsclubie/shared_invite/zt-36rnw9sja-XpcRWmJsQmgzL~DZCnYoTA">
                     <Button className="bg-gradient-to-r my-8 from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-10 py-7 text-[clamp(1rem,2.5vw,1.25rem)] rounded-full btn-glow shadow-2xl shadow-cyan-500/50 font-semibold">
                         Join us in Slack
                     </Button>

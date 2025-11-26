@@ -55,7 +55,7 @@ export default function ContactPage() {
             Get In <span className="text-primary text-glow">Touch</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-            Have questions? Want to join our community? We'd love to hear from you!
+            Have questions? Want to join our community? We&apos;d love to hear from you!
           </p>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default function ContactPage() {
                       placeholder="Your message..."
                     />
                   </div>
-                  <Button className="w-full bg-primary hover:bg-secondary glow-purple">Send Message</Button>
+                  <Button className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white rounded-full btn-glow shadow-lg shadow-cyan-500/30">Send Message</Button>
                 </form>
               </Card>
             </div>
@@ -107,7 +107,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-xl font-bold mb-2">Email Us</h3>
                     <p className="text-muted-foreground">chrisanich@linux.com</p>
-                    <p className="text-sm text-muted-foreground mt-1">We'll respond within 24 hours</p>
+                    <p className="text-sm text-muted-foreground mt-1">We&apos;ll respond within 24 hours</p>
                   </div>
                 </div>
               </Card>
