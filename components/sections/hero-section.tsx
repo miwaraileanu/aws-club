@@ -28,7 +28,7 @@ export function HeroSection() {
                     <span className="bg-gradient-to-r from-red-600 via-orange-600 via-yellow-500 via-green-500 via-cyan-500 via-blue-600 to-purple-600 bg-clip-text text-transparent" style={{ WebkitTextStroke: '1px rgba(255,255,255,0.1)' }}>AWS</span> <br /> <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">Cloud Club Dublin</span>
                 </h1>
                 <p className="text-[clamp(1.25rem,3vw,2rem)] text-gray-200 mb-6 animate-fade-in-up animate-delay-200 font-semibold">
-                    @ CCT College
+                    Learn. Build. Connect.
                 </p>
                 <p className="text-gray-300 text-[clamp(0.95rem,2vw,1.125rem)] max-w-2xl mx-auto animate-fade-in-up animate-delay-300 leading-relaxed">
                     Join a free student-led community supported by Amazon Web Services. Learn cloud skills, build amazing
