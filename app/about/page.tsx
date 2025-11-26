@@ -40,7 +40,7 @@ export default function AboutPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-primary/20 via-background to-secondary/20">
+      <section className="pt-32 pb-20 bg-slate-900">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
             About <span className="text-primary text-glow">Our Community</span>

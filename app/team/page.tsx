@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/navbar"
+import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { GridSection } from "@/components/grid-section"
 import { User } from "lucide-react"
@@ -45,10 +45,10 @@ export default function TeamPage() {
 
   return (
     <main className="min-h-screen">
-      <Navbar />
+      <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gradient-to-br from-primary/20 via-background to-secondary/20">
+      <section className="pt-32 pb-20 bg-slate-900">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
             Meet Our <span className="text-primary text-glow">Team</span>

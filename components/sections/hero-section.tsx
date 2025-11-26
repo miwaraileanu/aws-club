@@ -1,13 +1,13 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { VantaBackground } from "@/components/vanta-background"
 import Link from "next/link"
+import { Button } from "../ui/button"
 
 export function HeroSection() {
     return (
         <section
-            className="relative min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 gradient-animate flex items-center justify-center overflow-hidden"
+            className="relative min-h-screen bg-slate-900 flex items-center justify-center overflow-hidden"
         >
             {/* Vanta Birds Background */}
             <VantaBackground />
@@ -30,23 +30,17 @@ export function HeroSection() {
                 <p className="text-[clamp(1.25rem,3vw,2rem)] text-gray-200 mb-6 animate-fade-in-up animate-delay-200 font-semibold">
                     Learn. Build. Connect.
                 </p>
-                <p className="text-gray-300 text-[clamp(0.95rem,2vw,1.125rem)] mb-10 max-w-2xl mx-auto animate-fade-in-up animate-delay-300 leading-relaxed">
+                <p className="text-gray-300 text-[clamp(0.95rem,2vw,1.125rem)] max-w-2xl mx-auto animate-fade-in-up animate-delay-300 leading-relaxed">
                     Join a free student-led community supported by Amazon Web Services. Learn cloud skills, build amazing
                     projects, and grow together.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animate-delay-400">
-                    <Link href="/events" className="w-full sm:w-auto">
-                        <Button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-8 py-6 text-[clamp(0.95rem,2vw,1.125rem)] rounded-full w-full btn-glow shadow-2xl shadow-cyan-500/50 font-semibold">
-                            View Upcoming Events
-                        </Button>
-                    </Link>
-                    <Link href="/contact" className="w-full sm:w-auto">
-                        <Button className="glass border-2 border-cyan-400/50 text-cyan-300 hover:bg-cyan-500/20 px-8 py-6 text-[clamp(0.95rem,2vw,1.125rem)] rounded-full w-full transition-all duration-300 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/30 font-semibold">
-                            Get In Touch
-                        </Button>
-                    </Link>
-                </div>
+                <Link href="/contact">
+                    <Button className="bg-gradient-to-r my-8 from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-10 py-7 text-[clamp(1rem,2.5vw,1.25rem)] rounded-full btn-glow shadow-2xl shadow-cyan-500/50 font-semibold">
+                        Join us in Slack
+                    </Button>
+                </Link>
             </div>
+
         </section>
     )
 }

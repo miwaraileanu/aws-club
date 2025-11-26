@@ -8,7 +8,7 @@ export function VantaBackground() {
   useEffect(() => {
     if (typeof window === "undefined") return
 
-    let vantaEffect: any = null
+    let vantaEffect: { destroy: () => void } | null = null
 
     const loadVanta = async () => {
       // Dynamically load Vanta scripts
@@ -36,7 +36,7 @@ export function VantaBackground() {
               separation: 50.0,
               alignment: 50.0,
               cohesion: 50.0,
-              quantity: 2.0,
+              quantity: 3.0,
             })
           }
         }

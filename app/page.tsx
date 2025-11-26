@@ -2,7 +2,7 @@
 
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
-import { HeroSection, AboutSection, WhatWeOfferSection, CTASection } from "@/components/sections"
+import { HeroSection, AboutSection, WhatWeOfferSection} from "@/components/sections"
 
 export default function Home() {
   return (
@@ -11,7 +11,6 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <WhatWeOfferSection />
-      <CTASection />
       <Footer />
     </>
   )

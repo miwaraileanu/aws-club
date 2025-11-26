@@ -1,6 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
+import { Joining } from "./joining"
 
 export function WhatWeOfferSection() {
     return (
@@ -67,6 +68,8 @@ export function WhatWeOfferSection() {
                     </Card>
                 </div>
             </div>
+            <Joining />
+            
         </section>
     )
 }

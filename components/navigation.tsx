@@ -43,14 +43,6 @@ export function Navigation() {
               <span className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-400 transition-all duration-300 group-hover:w-full ${isActive("/events") ? "w-full" : ""}`}></span>
             </Link>
             <Link
-              href="/resources"
-              className={`text-sm font-medium transition-all duration-300 relative group ${isActive("/resources") ? "text-cyan-400" : "text-gray-300 hover:text-white"
-                }`}
-            >
-              Resources
-              <span className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-400 transition-all duration-300 group-hover:w-full ${isActive("/resources") ? "w-full" : ""}`}></span>
-            </Link>
-            <Link
               href="/team"
               className={`text-sm font-medium transition-all duration-300 relative group ${isActive("/team") ? "text-cyan-400" : "text-gray-300 hover:text-white"
                 }`}
@@ -58,7 +50,6 @@ export function Navigation() {
               Team
               <span className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-400 transition-all duration-300 group-hover:w-full ${isActive("/team") ? "w-full" : ""}`}></span>
             </Link>
-            <ThemeToggle />
             <Link href="/contact">
               <Button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white rounded-full btn-glow shadow-lg shadow-cyan-500/30">
                 Contact
