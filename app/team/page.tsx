@@ -14,22 +14,10 @@ export default function TeamPage() {
     },
     {
       image: "/professional-headshot-diverse-person-confident.jpg",
-      title: "Sarah Murphy",
-      description: "Vice President • DevOps Specialist • AWS Certified Developer",
+      title: "Mihail Raileanu",
+      description: "• Front-end Developer",
       icon: <User className="w-6 h-6 text-white" />,
     },
-    {
-      image: "/professional-headshot-diverse-person-friendly.jpg",
-      title: "Michael O'Brien",
-      description: "Technical Lead • Machine Learning Focus • AWS Certified Data Analytics",
-      icon: <User className="w-6 h-6 text-white" />,
-    },
-    {
-      image: "/professional-headshot-diverse-person-enthusiastic.jpg",
-      title: "Emma Kelly",
-      description: "Events Coordinator • Community Builder • AWS Cloud Practitioner",
-      icon: <User className="w-6 h-6 text-white" />,
-    }
   ]
 
   return (
