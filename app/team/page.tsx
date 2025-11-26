@@ -29,19 +29,7 @@ export default function TeamPage() {
       title: "Emma Kelly",
       description: "Events Coordinator • Community Builder • AWS Cloud Practitioner",
       icon: <User className="w-6 h-6 text-white" />,
-    },
-    {
-      image: "/professional-headshot-diverse-person-professional.jpg",
-      title: "David Chen",
-      description: "Workshop Organizer • Security Specialist • AWS Certified Security",
-      icon: <User className="w-6 h-6 text-white" />,
-    },
-    {
-      image: "/professional-headshot-diverse-person-approachable.jpg",
-      title: "Aoife Walsh",
-      description: "Social Media Manager • Content Creator • AWS Cloud Practitioner",
-      icon: <User className="w-6 h-6 text-white" />,
-    },
+    }
   ]
 
   return (
