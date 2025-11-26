@@ -4,6 +4,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card } from "@/components/ui/card"
 import Link from "next/link"
+import Image from "next/image"
 
 const events = [
   {
@@ -24,8 +25,24 @@ export default function Events() {
       <Navigation />
 
       {/* Header */}
-      <section className="pt-32 pb-20 bg-slate-900">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative pt-32 pb-20 bg-slate-900 overflow-hidden">
+        {/* Hero Image with Gradient Mask */}
+        <div className="absolute inset-0 z-0">
+          <div className="relative w-full h-full">
+            <Image
+              src="/images/events.png"
+              alt="Events"
+              fill
+              className="object-cover"
+              priority
+            />
+            {/* Gradient mask that fades to bottom */}
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/50 to-slate-900" />
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
             Upcoming  <span className="text-primary text-glow">Events</span>
           </h1>

@@ -8,6 +8,7 @@ import { Mail, MapPin, MessageSquare } from "lucide-react"
 import { useEffect, useRef } from "react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import Image from "next/image"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -49,8 +50,23 @@ export default function ContactPage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-slate-900">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative pt-32 pb-20 bg-slate-900 overflow-hidden">
+        {/* Hero Image with Gradient Mask */}
+        <div className="absolute inset-0 z-0">
+          <div className="relative w-full h-full">
+            <Image
+              src="/images/contact.png"
+              alt="Contact"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/50 to-slate-900" />
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
             Get In <span className="text-primary text-glow">Touch</span>
           </h1>
