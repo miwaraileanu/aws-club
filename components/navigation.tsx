@@ -23,7 +23,7 @@ export function Navigation() {
               <Image src="/logo.png" alt="AWS Community" width={62} height={62} className="rounded-lg" />
             </div>
             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              AWS Community
+              AWS Cloud Club Dublin
             </span>
           </Link>
 
