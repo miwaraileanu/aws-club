@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { GridSection } from "@/components/grid-section"
+import { VantaBackground } from "@/components/vanta-background"
 import { User } from "lucide-react"
 
 export default function TeamPage() {
