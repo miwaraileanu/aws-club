@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/navbar"
+import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { GridSection } from "@/components/grid-section"
 import { Target, Users, Lightbulb, Award } from "lucide-react"
@@ -37,7 +37,7 @@ export default function AboutPage() {
 
   return (
     <main className="min-h-screen">
-      <Navbar />
+      <Navigation />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-slate-900">

@@ -1,6 +1,6 @@
 "use client"
 
-import { Navbar } from "@/components/navbar"
+import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
@@ -46,7 +46,7 @@ export default function ContactPage() {
 
   return (
     <main className="min-h-screen">
-      <Navbar />
+      <Navigation />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-slate-900">
