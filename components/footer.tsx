@@ -56,7 +56,12 @@ export function Footer() {
 
         <div className="border-t border-cyan-500/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-500 text-sm">© 2025 AWS Community Dublin. All rights reserved.</p>
+            <div className="flex flex-col justify-start items-start gap-2">
+              <p className="text-gray-500 text-sm">© 2025 AWS Community Dublin. All rights reserved.</p>
+              <Link href="https://www.iarahim.ie/" className="text-gray-400 hover:text-cyan-400 transition-all duration-300 hover:underline">
+                <p className="text-gray-500 text-sm hover:text-cyan-400 transition-all duration-300 hover:scale-110 inline-block">Build by Mihail Raileanu</p>
+              </Link>
+            </div>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-cyan-400 transition-all duration-300 hover:scale-110 inline-block">
                 LinkedIn

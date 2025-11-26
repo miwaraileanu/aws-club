@@ -10,7 +10,7 @@ export function AboutSection() {
                     </h2>
                     <p className="text-gray-300 text-[clamp(1rem,2.5vw,1.25rem)] max-w-3xl mx-auto leading-relaxed">
                         Help students and professionals master cloud computing through workshops, projects and peer learning.
-                        Based at CCT College Dublin, with activities open to everyone 18+ in Ireland.
+                        Based at CCT College Dublin, with activities open to everyone in Ireland.
                     </p>
                 </div>
             </div>
