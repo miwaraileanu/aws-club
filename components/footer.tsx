@@ -32,11 +32,6 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/resources" className="hover:text-cyan-400 transition-all duration-300 hover:translate-x-1 inline-block">
-                  Resources
-                </Link>
-              </li>
-              <li>
                 <Link href="/team" className="hover:text-cyan-400 transition-all duration-300 hover:translate-x-1 inline-block">
                   Team
                 </Link>
