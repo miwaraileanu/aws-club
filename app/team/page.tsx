@@ -25,7 +25,7 @@ export default function TeamPage() {
       icon: <User className="w-6 h-6 text-white" />,
     },
     {
-      image: "/team/juan.jpeg",
+      image: "/team/juan.jpg",
       title: "Juan Yebenes",
       description: "CCT Student",
       icon: <User className="w-6 h-6 text-white" />,
