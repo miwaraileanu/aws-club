@@ -22,8 +22,6 @@ export const metadata: Metadata = {
     "awsclub.ie",
     "AWS Ireland",
     "Cloud Computing Ireland",
-    "AWS workshops Dublin",
-    "AWS certification Ireland",
     "CCT College AWS",
     "AWS learning community",
     "Cloud computing courses",
@@ -57,7 +55,7 @@ export const metadata: Metadata = {
       "Join AWS Community Club Ireland at awsclub.ie - Free AWS workshops, projects, certification prep & networking. Master cloud computing with Ireland's premier AWS community.",
     images: [
       {
-        url: "https://awsclub.ie/og-image.png",
+        url: "https://awsclub.ie/aws-logo.svg",
         width: 1200,
         height: 630,
         alt: "AWS Community Club Ireland - Cloud Computing Community",
@@ -69,9 +67,10 @@ export const metadata: Metadata = {
     title: "AWS Community Club Ireland | awsclub.ie - Cloud Computing Hub",
     description:
       "Join Ireland's premier AWS community at awsclub.ie. Free workshops, projects, and networking for cloud computing enthusiasts.",
+    images: ["https://awsclub.ie/aws-logo.svg"],
     creator: "@awsclub_ie",
     site: "@awsclub_ie",
-  },
+  }
   robots: {
     index: true,
     follow: true,
@@ -85,13 +84,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/icon.png" },
-      { url: "/icon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/icon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/aws-logo.svg", type: "image/svg+xml" },
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/apple-icon.png" },
-      { url: "/apple-icon-180x180.png", sizes: "180x180", type: "image/png" },
+      { url: "/aws-logo.svg", type: "image/svg+xml" },
     ],
     shortcut: "/favicon.ico",
   },
@@ -125,7 +122,7 @@ export default function RootLayout({
         url: "https://awsclub.ie",
         logo: {
           "@type": "ImageObject",
-          url: "https://awsclub.ie/logo.png",
+          url: "https://awsclub.ie/aws-logo.svg",
           width: 512,
           height: 512,
         },
