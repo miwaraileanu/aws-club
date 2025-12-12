@@ -81,7 +81,7 @@ export default function TeamPage() {
         </div>
       </section>
 
-      <GridSection items={teamMembers} columns={3} />
+      <GridSection items={teamMembers} columns={4} />
       <Footer />
     </main>
   )
