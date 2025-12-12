@@ -31,8 +31,13 @@ export default function TeamPage() {
       icon: <User className="w-6 h-6 text-white" />,
     },
     {
-      image: "/",
+      image: "/team/matt.jpg",
       title: "Matthew Lawlor-Altomare",
+      description: "CCT Student",
+      icon: <User className="w-6 h-6 text-white" />,
+    },{
+      image: "/team/adam.jpg",
+      title: "Adam Scannell",
       description: "CCT Student",
       icon: <User className="w-6 h-6 text-white" />,
     },
