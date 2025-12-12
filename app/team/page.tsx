@@ -40,6 +40,11 @@ export default function TeamPage() {
       title: "Adam Scannell",
       description: "CCT Student",
       icon: <User className="w-6 h-6 text-white" />,
+    },{
+      image: "/team/darragh.jpg",
+      title: "Darragh",
+      description: "CCT Student",
+      icon: <User className="w-6 h-6 text-white" />,
     },
   
   ]
