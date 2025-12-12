@@ -9,15 +9,34 @@ export default function TeamPage() {
     {
       image: "/professional-headshot-diverse-person-smiling.jpg",
       title: "Chris Anich",
-      description: "Club President • Cloud Architecture Enthusiast • AWS Certified Solutions Architect",
+      description: "Club Founder",
       icon: <User className="w-6 h-6 text-white" />,
     },
     {
-      image: "/professional-headshot-diverse-person-confident.jpg",
-      title: "Mihail Raileanu",
-      description: "• Front-end Developer",
+      image: "/professional-headshot-diverse-person-smiling.jpg",
+      title: "Pablo ",
+      description: "Club Lider",
       icon: <User className="w-6 h-6 text-white" />,
     },
+    {
+      image: "/team/mihail.jpeg",
+      title: "Mihail Raileanu",
+      description: "Front-end Developer • CCT Student",
+      icon: <User className="w-6 h-6 text-white" />,
+    },
+    {
+      image: "/team/juan.jpeg",
+      title: "Juan Yebenes",
+      description: "CCT Student",
+      icon: <User className="w-6 h-6 text-white" />,
+    },
+    {
+      image: "/",
+      title: "Matthew Lawlor-Altomare",
+      description: "CCT Student",
+      icon: <User className="w-6 h-6 text-white" />,
+    },
+  
   ]
 
   return (
