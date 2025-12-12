@@ -24,7 +24,7 @@ export function GridCard({ image, title, description, icon }: GridCardProps) {
       gsap.from(cardRef.current, {
         opacity: 0,
         y: 20,
-        duration: 0.5,
+        duration: 0.3,
         ease: "power2.out",
         scrollTrigger: {
           trigger: cardRef.current,
