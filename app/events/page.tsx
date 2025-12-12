@@ -9,7 +9,7 @@ import Image from "next/image"
 const events = [
   {
     id: 1,
-    title: "Christmas PArty",
+    title: "Christmas Party",
     date: "27/12/2025",
     time: "6:00 PM - 8:00 PM",
     location: "CCT College Dublin",
