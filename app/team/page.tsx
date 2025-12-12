@@ -7,9 +7,9 @@ import Image from "next/image"
 export default function TeamPage() {
   const teamMembers = [
     {
-      image: "/professional-headshot-diverse-person-smiling.jpg",
+      image: "/chris.jpg",
       title: "Chris Anich",
-      description: "Club Founder",
+      description: "Club Founder • CCT Student",
       icon: <User className="w-6 h-6 text-white" />,
     },
     {
