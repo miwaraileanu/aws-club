@@ -63,13 +63,13 @@ export function Footer() {
               </Link>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-all duration-300 hover:scale-110 inline-block">
+              <a href="https://ie.linkedin.com/company/aws-cloud-club-cct" className="text-gray-400 hover:text-cyan-400 transition-all duration-300 hover:scale-110 inline-block">
                 LinkedIn
               </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-all duration-300 hover:scale-110 inline-block">
-                Twitter
+              <a href="https://www.instagram.com/awsclub.ie" className="text-gray-400 hover:text-cyan-400 transition-all duration-300 hover:scale-110 inline-block">
+                Instagram
               </a>
-              <a href="#" className="text-gray-400 hover:text-cyan-400 transition-all duration-300 hover:scale-110 inline-block">
+              <a href="https://join.slack.com/t/awsclubie/shared_invite/zt-36rnw9sja-XpcRWmJsQmgzL~DZCnYoTA" className="text-gray-400 hover:text-cyan-400 transition-all duration-300 hover:scale-110 inline-block">
                 Slack
               </a>
             </div>
