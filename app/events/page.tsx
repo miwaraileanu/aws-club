@@ -9,12 +9,11 @@ import Image from "next/image"
 const events = [
   {
     id: 1,
-    title: "ssssss",
-    date: "sssssssssss",
+    title: "Christmas PArty",
+    date: "27/12/2025",
     time: "6:00 PM - 8:00 PM",
     location: "CCT College Dublin",
-    host: "ssssssssssss",
-    description: "sssssssssssss",
+    description: "Happy Christmas",
     mapLink: "https://maps.google.com/?q=CCT+College+Dublin",
   },
 ]
@@ -67,7 +66,6 @@ export default function Events() {
                       <h3 className="text-2xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
                         {event.title}
                       </h3>
-                      <p className="text-gray-400 text-sm">Hosted by {event.host}</p>
                     </div>
                   </div>
 
