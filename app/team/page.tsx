@@ -14,7 +14,7 @@ export default function TeamPage() {
     },
     {
       image: "/professional-headshot-diverse-person-smiling.jpg",
-      title: "Pablo ",
+      title: "Pablo Carvalho",
       description: "Club Lider",
       icon: <User className="w-6 h-6 text-white" />,
     },
@@ -42,8 +42,8 @@ export default function TeamPage() {
       icon: <User className="w-6 h-6 text-white" />,
     },{
       image: "/team/darragh.jpg",
-      title: "Darragh",
-      description: "CCT Student",
+      title: "Darragh Cuddihy",
+      description: "Back-end Developer • CCT Student",
       icon: <User className="w-6 h-6 text-white" />,
     },
   
