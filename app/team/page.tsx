@@ -43,7 +43,7 @@ export default function TeamPage() {
     },{
       image: "/team/darragh.jpg",
       title: "Darragh Cuddihy",
-      description: "Back-end Developer • CCT Student",
+      description: "Global IT specialist • Back-end Developer • CCT Student",
       icon: <User className="w-6 h-6 text-white" />,
     },
   
