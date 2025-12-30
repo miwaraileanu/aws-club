@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer"
 import { GridSection } from "@/components/grid-section"
 import { User } from "lucide-react"
 import Image from "next/image"
+import { Analytics } from "@vercel/analytics/next"
 
 export default function TeamPage() {
   const teamMembers = [
@@ -51,6 +52,7 @@ export default function TeamPage() {
 
   return (
     <main className="min-h-screen">
+      <Analytics/>
       <Navigation />
 
       {/* Hero Section */}
